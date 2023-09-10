@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: montserrat;
+      }
+      a {
+        color: black;
+        text-decoration: none;
+      }
+      #nav {
+        display: flex;
+        align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: absolute;
+    z-index: 9;
+    height: 10%;
+    width: 100%;
+}
+#center-nav{
+    display: flex;
+    gap: 20px;
+}
+#center-nav>a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+}
+#page3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #FCDA69;
+}
+#left1{
+    height: 70%;
+    width: 35%;
+}
+#right1{
+    position: relative;
+    height: 40vw;
+    width: 40vw;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+.line{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+    padding: 0px 30px;
+    height: 10%;
+    width: 100%;
+}
+.l1{
+    position: absolute;
+    z-index: 99;
+}
+.l2{
+    left: 10%;
+    top: 47%;
+    width: 65%;
+    border-bottom: 2px solid #000;
+    position: absolute;
+    transform: rotate(15deg);
+    transform-origin: left;
+}
+.c1{
+    height: 12vw;
+    width: 12vw;
+}
+.c1>i{
+    font-size: 80px;
+}
+.text5{
+    position: relative;
+    height: 30%;
+    width: 100%;
+}
+.text5 h1{
+    padding-top: 20px ;
+    font-size: 60px;
+}
+.text5 h5{
+    color: #8873EF;
+    transform: rotate(-20deg);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+#info{
+    margin-top: 50px;
+    height: 50%;
+    width: 100%;
+}
+.infos{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+    height: 50%;
+    width: 100%;
+    border-top: 2px solid #000;
+}
+.i1{
+    background-color: #fff;
+}
+#center-nav a:hover{
+    color: #8873EF;
+}
+.i1>i{
+    color: #000;
+}
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3vw;
+    width: 3vw;
+    background-color: #8873EF;
+    border-radius: 50%;
+}
+.circle>i{
+    color: #fff;
+    font-size: 25px;
+}
+    </style>
+     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body bgcolor="#FCDA69">
+    <div id="page">
+        <div id="nav">
+            <img src="Logo.png" height="175px" style="background-size:cover;padding-top: 35px;" alt="">
+            <div id="center-nav">
+                <a href="index.html" targe="#">HOME</a>
+                <a href="About.html" target="#">ABOUT</a>
+                <a href="service.html" target="#">SERVICES</a>
+                <a href="project.html" target="#">PROJECTS</a>
+            </div>
+        </div>
+    </div>
+   <br><br><br><br><br><br>
+   <div id="page3">
+    <div id="left1">
+        <div id="text5">
+            <h5>Contact</h5>
+            <h1>Let's Discuss <br>Your Project</h1>
+        </div>
+        <div id="info">
+            <div class="infos">
+                <div class="circle i1"><i class="ri-message-2-line"></i>
+                </div>
+                <h1>nairkavya73@gmail.com</h1>
+            </div>
+            <div class="infos">
+                <div class="circle i1"><i class="ri-map-pin-4-line"></i>
+                </div>
+                <h1>Ahmedabad, Gujarat<br> 380015</h1>
+            </div>
+        </div>
+    </div>
+    <div id="right1">
+        <div class="line l1">
+            <h1>👋 Say Hi!</h1>
+            <div class="circle c1"><i class="ri-arrow-right-up-line"></i></div>
+        </div>
+         <div class="line l2"></div>
+    </div>
+</div>
+</body>
+</html>

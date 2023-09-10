@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: montserrat;
+      }
+      a {
+        color: black;
+        text-decoration: none;
+      }
+      #nav {
+        display: flex;
+        align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: absolute;
+    z-index: 9;
+    height: 10%;
+    width: 100%;
+}
+#center-nav{
+    display: flex;
+    gap: 20px;
+}
+#center-nav>a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+}
+#page2{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+#project{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50%;
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5%;
+}
+.projects{
+    border-top: 2px solid #000;
+    height: 100%;
+    width: 31%;
+}
+#text3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    height: 30%;
+    width: 100%;
+}
+#image{
+    height: 70%;
+    width: 100%;
+}
+#image>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.p2{
+    position: relative;
+    top: -20%;
+}
+.p3{
+    position: relative;
+    top: -50%;
+}
+#text4{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    height: 20%;
+    width: 30%;
+}
+#text4>h1{
+    margin-top: 20px;
+    font-size: 50px;
+}
+#center-nav a:hover{
+    color: #8873EF;
+}
+#text4>h5{
+    color: #8873EF;
+    transform: rotate(-20deg);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3vw;
+    width: 3vw;
+    background-color: #8873EF;
+    border-radius: 50%;
+}
+.circle>i{
+    color: #fff;
+    font-size: 25px;
+}
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <div id="page">
+        <div id="nav">
+            <img src="Logo.png" height="175px" style="background-size:cover;padding-top: 35px;" alt="">
+            <div id="center-nav">
+                <a href="index.html" target="#">HOME</a>
+                <a href="About.html" target="#">ABOUT</a>
+                <a href="service.html" target="#">SERVICES</a>
+                <a href="contact.html" target="#">CONTACT</a>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br> <br><br><br><br>
+    <div id="page2">
+        <div id="text4">
+            <h5>PROJECT</h5>
+            <h1>LATEST <br>PROJECTS</h1>
+        </div>
+        <div id="project">
+            <div class="projects p1">
+                <div id="text3">
+                    <h1>Netflix <br> Home Page Design </h1>
+                    <div class="circle"><i class="ri-arrow-right-up-line"></i>
+                    </div>
+                </div>
+                <div id="image">
+                    <img height="400px"  src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                </div>
+            </div>
+            <div class="projects p2">
+                <div class="text3">
+                    <h1>Yogurt Company<br>WEBSITE Design </h1>
+                    <div class="circle"><i class="ri-arrow-right-up-line"></i></div>
+                </div>
+                <div class="image">
+                    <img height="600px" width="450px" src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                </div>
+            </div>
+            <div class="projects p3">
+                <div class="text3">
+                    <h1>Restuarant Webpage<br> Design </h1>
+                    <div class="circle"><i class="ri-arrow-right-up-line"></i></div>
+                </div>
+                <div class="image">
+                    <img height="800px" src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="">
+                </div>
+            </div>
+            
+        </div>
+        </div>
+</body>
+</html>
